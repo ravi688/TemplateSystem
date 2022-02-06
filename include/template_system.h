@@ -1,10 +1,10 @@
 #pragma once
 
-#define template(typename, T) typename##_##T
+#define c_template(c_typename, T) c_typename##_##T
 
 
-#define template1(typename, T) template(typename, T)
-#define template2(typename, T1, T2) typename##_##T1##T2
+#define template1(c_typename, T) c_template(c_typename, T)
+#define template2(c_typename, T1, T2) c_typename##_##T1##T2
 
 
 typedef char* pchar_t;
