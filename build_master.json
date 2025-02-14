@@ -1,0 +1,17 @@
+{
+    "project_name": "TemplateSystem",
+    "canonical_name": "tempsys",
+    "description" : "Macro based Templates in C",
+    "install_headers" : [
+        {
+            "files" : [ "include/template_system.h" ]
+        }
+    ],
+    "include_dirs": "include",
+    "targets": [
+        {
+            "name": "tempsys",
+            "is_header_only_library" : true
+        }
+    ]
+}
